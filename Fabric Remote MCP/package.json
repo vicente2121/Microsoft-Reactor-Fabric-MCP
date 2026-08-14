@@ -1,0 +1,17 @@
+{
+  "name": "fabric-mcp-proxy",
+  "version": "1.0.0",
+  "description": "Local stdio MCP proxy for Microsoft Fabric remote Core MCP.",
+  "type": "module",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
